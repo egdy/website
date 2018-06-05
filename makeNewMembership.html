@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>회원가입</title>
+    <style>
+
+    body{
+      max-width:1000px;
+      margin:0 auto;
+    }
+
+    /*링크*/
+    A:link { text-decoration:none; color:black;}
+    A:visited { text-decoration:none; color:black;}
+    A:active { text-decoration:none; color:black;}
+
+
+    /*헤더*/
+    span.head_top_left, div.head_logo, span.menu_left{
+      float:left;
+    }
+
+    span.head_top_right, div.head_search, span.menu_right{
+      float:right;
+    }
+
+    div.head_top, div.menu, div.head{
+      clear:both;
+    }
+
+    div.head_search{
+      line-height:137px;
+      vertical-align:middle;
+    }
+
+    div.head_logo, div.head_search{
+      display:inline-block;
+    }
+
+    div.head_top{
+      color:lightslategray;
+      overflow:auto;
+      background-color: aliceblue;
+      padding:3px;
+    }
+
+    div.menu{
+      color:white;
+      font-weight: bold;
+      overflow:auto;
+      background-color: paleturquoise;
+      padding:7px 15px;
+      margin:15px 0px;
+    }
+
+    /*푸터*/
+    div.foot_logo, div.foot_detail{
+      display:inline-block;
+    }
+
+    footer{
+      margin-top: 50px;
+      color:lightslategray;
+      padding:20px;
+      text-align:center;
+      background-color: aliceblue;
+    }
+
+    span.foot_detail_in{
+      font-size : 8px;
+    }
+
+    span.foot_select{
+      font-size: 20px;
+    }
+    span.id{
+      display:inline-block;
+      padding:20px;
+    }
+    /*바디*/
+    form{
+      display:block;
+      padding:5px;
+    }
+    span.id{
+      margin-top:14px;
+      margin-left:15px;
+      padding:5px;
+      display:inline-block;
+      width:120px;
+      text-align:right;
+    }
+    div.H{
+      font-size:40px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <header><!--헤더-->
+      <div class="head_top">
+        <span class="head_top_left">믿을 수 있는 판매처</span>
+        <span class="head_top_right"><a href="login.html">로그인</a> <a href="makeNewMembership.html">회원가입</a></span>
+      </div>
+      <div class="head">
+        <div class="head_logo"><a href="index.html"><img src="img/mainlogo.PNG"></a></div>
+        <div class="head_search"><input type="text" name="search"><img src="img/search.PNG"></div>
+      </div>
+      <div class="menu">
+        <span class="menu_left"> <a href="largedoll.html">큰인형</a> | 캐릭터인형 | 동물인형 </span>
+        <span class="menu_right"> <a href="announce.html">공지사항</a> | 자유게시판 </span>
+      </div>
+    </header>
+
+    <contents><!--바디-->
+      <div class="H">회원가입</div><hr>
+        <form>
+          <span class="id">이름</span><input type="text" value=""><br>
+          <span class="id">아이디</span><input type="text" value="">
+          <spah class="id1"><input type="button" value ="중복확인"></span><br>
+          <span class="id">비밀번호</span><input type="text"value=""><br>
+          <span class="id">비밀번호확인</span><input type="text" value="">  비밀번호를 다시 입력해주세요.<br>
+          <span class="id">생년월일</span><input type="text" size="5" placeholder="예시)1999" value="">년
+                                         <input type="text" size="3" placeholder="예시)01" value="">월
+                                         <input type="text" size="3" placeholder="예시)01" value="">일
+                                         <input type="radio" name="birth" value="3">음력
+                                         <input type="radio" name="birth" value="4">양력<br>
+          <span class="id">성별</span><input type="radio" name="sex" value="1">남
+                                      <input type="radio" name="sex" value="2">여<br>
+          <span class="id">주소</span>
+                    <select name="juso">
+                      <option value="10">서울특별시</option>
+                      <option value="11">인천광역시</option>
+                      <option value="12">대구광역시</option>
+                      <option value="13">대전광역시</option>
+                      <option value="14">울산광역시</option>
+                      <option value="15">부산광역시</option>
+                      <option value="16">광주광역시</option>
+                      <option value="17">세종특별자치시</option>
+                      <option value="10">제주특별자치도</option>
+                    </select>
+                     상세주소 <input type="text" size="30" value=""><br>
+          <span class="id">이메일</span><input type="email" placeholder="dmsrud@naver.com"><br>
+          <span class="id">휴대전화</span><input type="text" list="number">
+                <datalist id="number">
+                  <option value="010-">
+                  <option value="011-">
+                </datalist><br>
+          <span class="id">SMS수신 동의</span><input type="checkbox" value=""> 동의 시 쇼핑몰에서 제공하는 이벤트를 문자로 받아볼 수 있습니다.<br>
+          <span class="id"></span><input type="submit" value="회원가입">
+       </form>
+     </contents>
+
+    <footer><!--푸터-->
+      <div class="foot_logo"><img src="img/mainlogo.PNG" height="100px"></div>
+      <div class="foot_detail">
+        <span class="foot_detail_in">
+          <span class="foot_select"><a href="index.html">홈</a> / <a href="companyIntroduce.html">회사소개</a></span><br>
+          상호:토이앤드|대표자명:김소연 정은경|개인정보보호 관리자:김소연 정은경|E-mail:nowhere@loki.dot<br>
+          사업자 등록번호:somewhere|통신판매신고번호:2018-서울-0508[사업자정보확인]<br>
+          주소:서울특별시 구로구 고척동 경인로 445|고객만족센터 TEL:그런거없음010|FAX:000)ABC-1234<br>
+          Copyrightⓒ2018 김소연 정은경.All Rights Reserver.
+        </span>
+      </div>
+    </footer>
+
+  </body>
+</html>

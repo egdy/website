@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>공지사항</title>
+    <style>
+
+    body{
+      max-width:1000px;
+      margin:0 auto;
+    }
+
+    /*링크*/
+    A:link { text-decoration:none; color:black;}
+    A:visited { text-decoration:none; color:black;}
+    A:active { text-decoration:none; color:black;}
+
+
+    /*헤더*/
+    span.head_top_left, div.head_logo, span.menu_left{
+      float:left;
+    }
+
+    span.head_top_right, div.head_search, span.menu_right{
+      float:right;
+    }
+
+    div.head_top, div.menu, div.head{
+      clear:both;
+    }
+
+    div.head_search{
+      line-height:137px;
+      vertical-align:middle;
+    }
+
+    div.head_logo, div.head_search{
+      display:inline-block;
+    }
+
+    div.head_top{
+      color:lightslategray;
+      overflow:auto;
+      background-color: aliceblue;
+      padding:3px;
+    }
+
+    div.menu{
+      color:white;
+      font-weight: bold;
+      overflow:auto;
+      background-color: paleturquoise;
+      padding:7px 15px;
+      margin:15px 0px;
+    }
+
+    /*푸터*/
+    div.foot_logo, div.foot_detail{
+      display:inline-block;
+    }
+
+    footer{
+      color:lightslategray;
+      padding:20px;
+      text-align:center;
+      background-color: aliceblue;
+    }
+
+    span.foot_detail_in{
+      font-size : 8px;
+    }
+
+    span.foot_select{
+      font-size: 20px;
+    }
+
+    /*바디*/
+    h1{
+      font-size: 25px;
+      text-align:center;
+      margin:50px;
+    }
+
+    td.number{
+      text-align: center;
+    }
+
+    div.page_num{
+      margin:30px;
+      text-align: center;
+    }
+
+    div.button{
+      text-align: right;
+    }
+
+    div.table{
+      display: inline-block;
+      margin-left: 50px;
+    }
+
+    th{
+      border-top:1px solid gray;
+      border-bottom:1px solid gray;
+    }
+
+    td{
+      border-bottom:1px solid lightgray;
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <header><!--헤더-->
+      <div class="head_top">
+        <span class="head_top_left">믿을 수 있는 판매처</span>
+        <span class="head_top_right"><a href="login.html">로그인</a> <a href="makeNewMembership.html">회원가입</a></span>
+      </div>
+      <div class="head">
+        <div class="head_logo"><a href="index.html"><img src="img/mainlogo.PNG"></a></div>
+        <div class="head_search"><input type="text" name="search"><img src="img/search.PNG"></div>
+      </div>
+      <div class="menu">
+        <span class="menu_left"> <a href="largedoll.html">큰인형</a> | 캐릭터인형 | 동물인형 </span>
+        <span class="menu_right"> <a href="announce.html">공지사항</a> | 자유게시판 </span>
+      </div>
+    </header>
+
+    <contents><!--바디-->
+      <h1>공지사항</h1>
+      <div class="button">
+        <input type="radio" name="how_search"> 이름 <input type="radio" name="how_search"> 제목 <input type="radio" name="how_search"> 내용
+      </div>
+      <div class="table">
+      <table width="900px">
+        <thead>
+          <tr>
+            <th>번호</th>
+            <th width="600px">제목</th>
+            <th>작성자</th>
+            <th>작성일</th>
+            <th>조회수</th>
+          </tr>
+        </thead>
+        <tr>
+          <td class="number">9</td>
+          <td>대량주문하실때 읽어주세요</td>
+          <td class="number">토이랜드</td>
+          <td class="number">2008/07/25</td>
+          <td class="number">2083</td>
+        </tr>
+        <tr>
+          <td class="number">8</td>
+          <td>대량주문하실때 읽어주세요</td>
+          <td class="number">토이랜드</td>
+          <td class="number">2008/07/25</td>
+          <td class="number">2083</td>
+        </tr>
+        <tr>
+          <td class="number">7</td>
+          <td>대량주문하실때 읽어주세요</td>
+          <td class="number">토이랜드</td>
+          <td class="number">2008/07/25</td>
+          <td class="number">2083</td>
+        </tr>
+        <tr>
+          <td class="number">6</td>
+          <td>대량주문하실때 읽어주세요</td>
+          <td class="number">토이랜드</td>
+          <td class="number">2008/07/25</td>
+          <td class="number">2083</td>
+        </tr>
+        <tr>
+          <td class="number">5</td>
+          <td>대량주문하실때 읽어주세요</td>
+          <td class="number">토이랜드</td>
+          <td class="number">2008/07/25</td>
+          <td class="number">2083</td>
+        </tr>
+        <tr>
+          <td class="number">4</td>
+          <td>대량주문하실때 읽어주세요</td>
+          <td class="number">토이랜드</td>
+          <td class="number">2008/07/25</td>
+          <td class="number">2083</td>
+        </tr>
+        <tr>
+          <td class="number">3</td>
+          <td>대량주문하실때 읽어주세요</td>
+          <td class="number">토이랜드</td>
+          <td class="number">2008/07/25</td>
+          <td class="number">2083</td>
+        </tr>
+        <tr>
+          <td class="number">2</td>
+          <td>대량주문하실때 읽어주세요</td>
+          <td class="number">토이랜드</td>
+          <td class="number">2008/07/25</td>
+          <td class="number">2083</td>
+        </tr>
+        <tr>
+          <td class="number">1</td>
+          <td>대량주문하실때 읽어주세요</td>
+          <td class="number">토이랜드</td>
+          <td class="number">2008/07/25</td>
+          <td class="number">2083</td>
+        </tr>
+      </table>
+    </div>
+      <div class="page_num">1</div>
+    </contents>
+
+    <footer><!--푸터-->
+      <div class="foot_logo"><img src="img/mainlogo.PNG" height="100px"></div>
+      <div class="foot_detail">
+        <span class="foot_detail_in">
+          <span class="foot_select"><a href="index.html">홈</a> / <a href="companyIntroduce.html">회사소개</a></span><br>
+          상호:토이앤드|대표자명:김소연 정은경|개인정보보호 관리자:김소연 정은경|E-mail:nowhere@loki.dot<br>
+          사업자 등록번호:somewhere|통신판매신고번호:2018-서울-0508[사업자정보확인]<br>
+          주소:서울특별시 구로구 고척동 경인로 445|고객만족센터 TEL:그런거없음010|FAX:000)ABC-1234<br>
+          Copyrightⓒ2018 김소연 정은경.All Rights Reserver.
+        </span>
+      </div>
+    </footer>
+
+  </body>
+</html>
